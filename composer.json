@@ -1,0 +1,16 @@
+{
+    "name": "77web/php81-enums",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Quartetcom\\Php81Enums\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "77web",
+            "email": "info@77-web.com"
+        }
+    ],
+    "require": {}
+}
