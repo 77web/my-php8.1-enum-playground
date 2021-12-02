@@ -5,8 +5,8 @@ namespace Quartetcom\Php81Enums\Backed;
 
 enum Language: string
 {
-    case PHP = 'php';
     case Java = 'java';
+    case PHP = 'php';
     case TypeScript = 'ts';
     case JavaScript = 'js';
 }

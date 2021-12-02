@@ -3,7 +3,8 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Quartetcom\\Php81Enums\\": "src/"
+            "Quartetcom\\Php81Enums\\": "src/",
+            "Quartetcom\\Php81Enums\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -14,5 +15,8 @@
     ],
     "require": {
         "php": ">=8.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
