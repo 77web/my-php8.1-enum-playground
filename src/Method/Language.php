@@ -25,4 +25,12 @@ enum Language
             self::JavaScript,
         ];
     }
+
+    public function getTargetDomain(): string
+    {
+        return match($this) {
+            self::PHP, self::Java => 'backend',
+            self::JavaScript, self::TypeScript => 'frontend',
+        };
+    }
 }

@@ -12,5 +12,7 @@ class LanguageTest extends TestCase
     {
         $this->assertCount(2, Language::getBackendLanguages());
         $this->assertCount(2, Language::getFrontendLanguages());
+        $this->assertEquals('backend', Language::PHP->getTargetDomain());
+        $this->assertEquals('frontend', Language::JavaScript->getTargetDomain());
     }
 }
